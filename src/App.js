@@ -19,12 +19,12 @@ function App() {
   }
   
   return (
-    <body className="App">
+    <div className="App">
       <nav>
         <Estatus likesTotales={likesTotales}/>
       </nav>  
         <Posteos aumentarLikesTotales={aumentarLikesTotales}/>
-    </body>
+    </div>
   );
 }
 

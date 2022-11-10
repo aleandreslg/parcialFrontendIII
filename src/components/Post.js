@@ -18,7 +18,7 @@ const Post = ({aumentarLikesTotales, data}) => {
   const likear = () => {
     setLikes(likes+1)
     aumentarLikesTotales()
-    console.log("Sumó un like el posteo: " + data.titulo );
+    console.log("El post '" + data.titulo + "' sumó un like");
   }
   
     return (
